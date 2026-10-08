@@ -1,0 +1,5 @@
+Finding,Root Cause,Corrective Action,Owner,Deadline (days),Deadline,Status,Control,Verification
+AF-001,No scheduled restore testing,Quarterly backup restore test; keep signed test record,DevOps,30,07-Nov-2026,Open,A.8.13,Re-test at next internal audit
+AF-002,Incomplete MFA rollout,Enforce MFA for all users; report coverage monthly,IT,15,23-Oct-2026,In Progress,A.5.17,Re-test at next internal audit
+AF-003,No formal vendor process,Create vendor assessment questionnaire,Procurement,60,07-Dec-2026,Open,A.5.19,Re-test at next internal audit
+AF-004,No access-review schedule,Quarterly privileged-access reviews with sign-off,CTO,30,07-Nov-2026,Open,A.5.15,Re-test at next internal audit

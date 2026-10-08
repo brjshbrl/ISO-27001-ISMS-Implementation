@@ -1,0 +1,19 @@
+Risk ID,Asset,Inherent Rating,Treatment,Action,Owner,Timeline,Target Date,Status,Score: Inherent -> Residual
+R-001,Customer DB,Critical,Mitigate,Conduct quarterly database access reviews; remove standing admin access,CTO,30 days,07-Nov-2026,Open,20 -> 8
+R-002,AWS,High,Mitigate,Review AWS IAM permissions; enable IAM Access Analyzer,DevOps Lead,30 days,07-Nov-2026,Open,15 -> 8
+R-003,GitHub,High,Mitigate,Enforce MFA on GitHub org,Engineering Lead,15 days,23-Oct-2026,In Progress,15 -> 5
+R-004,Laptops,High,Mitigate,Deploy endpoint protection (EDR) on all laptops,IT Manager,45 days,22-Nov-2026,In Progress,16 -> 6
+R-005,M365,High,Mitigate,Conduct phishing simulation and security awareness training,HR/Security,30 days,07-Nov-2026,Open,16 -> 9
+R-006,VPN,High,Mitigate,Enforce MFA on VPN,IT Manager,30 days,07-Nov-2026,Open,15 -> 8
+R-007,Backup,High,Mitigate,Perform quarterly backup restoration test,DevOps Lead,30 days,07-Nov-2026,Open,15 -> 8
+R-008,API Keys,High,Mitigate,Move secrets to AWS Secrets Manager; enable GitHub secret scanning,DevOps Lead,45 days,22-Nov-2026,Open,15 -> 8
+R-009,HR System,High,Mitigate,Review and restrict HRMS roles,HR Manager,30 days,07-Nov-2026,Open,12 -> 6
+R-010,Customer Support,High,Mitigate,Define data-handling procedure; mask customer data in tickets,Support Lead,45 days,22-Nov-2026,Open,12 -> 6
+R-011,Source Code,High,Mitigate,Repository access review; branch protection; least privilege,Engineering Lead,30 days,07-Nov-2026,Open,12 -> 6
+R-012,AWS,High,Mitigate,Design and test multi-region / DR failover,DevOps Lead,90 days,06-Jan-2027,Open,15 -> 8
+R-013,Security Logs,High,Mitigate,Define 12-month retention; centralise logs in protected storage,Security Lead,45 days,22-Nov-2026,Open,12 -> 6
+R-014,Employee Laptop,High,Mitigate,Enforce full-disk encryption through device management,IT Manager,30 days,07-Nov-2026,Open,12 -> 4
+R-015,Vendor,High,Mitigate,Implement vendor security assessment process,Procurement,60 days,07-Dec-2026,Open,15 -> 8
+R-016,Website,High,Mitigate,Monthly patching and vulnerability scanning for website,IT Manager,30 days,07-Nov-2026,Open,12 -> 6
+R-017,Payroll Data,High,Mitigate,Restrict payroll access to named roles; log access,Finance Manager,30 days,07-Nov-2026,Open,10 -> 5
+R-018,Network,High,Mitigate,Segment prod/corporate/dev; review security groups,DevOps Lead,60 days,07-Dec-2026,Open,12 -> 6

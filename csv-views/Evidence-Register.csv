@@ -1,0 +1,9 @@
+Evidence ID,Control,Evidence,Owner,Available?,Location / Reference
+EV-001,A.5.9,Asset Register,IT,Yes,02-Asset-Management/Asset-Inventory.xlsx
+EV-002,A.5.15,Access Review,IT,Yes,Access review report (ad hoc; see AF-004)
+EV-003,A.6.3,Training Records,HR,Yes,Training completion 94%
+EV-004,A.8.13,Backup Test Record,DevOps,No,Missing - see AF-001
+EV-005,A.8.15,Logging Configuration,Security,Yes,Log configuration export
+EV-006,A.5.19,Vendor Assessment,Procurement,Partial,Partial vendor reviews - see AF-003
+EV-007,A.5.1,Policy Register / Approved Policies,Security,Yes,05-Policies/
+EV-008,A.5.17,IAM / MFA Configuration,IT,Partial,82% MFA coverage - see AF-002

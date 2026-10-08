@@ -1,0 +1,8 @@
+Control,Audit Question,Evidence,Result
+A.5.9,Are assets inventoried?,Asset register,Pass
+A.5.15,Are access rights reviewed?,Access review report,Partial
+A.5.17,Is MFA enforced?,IAM configuration,Partial
+A.8.13,Are backups tested?,Restore test record,Fail
+A.5.1,Are security policies approved?,Policy register,Pass
+A.5.24,Are incidents documented?,Incident records,Pass
+A.5.19,Are vendors assessed?,Vendor reviews,Partial

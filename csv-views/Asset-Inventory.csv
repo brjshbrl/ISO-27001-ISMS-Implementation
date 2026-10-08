@@ -1,0 +1,21 @@
+Asset ID,Asset Name,Description,Asset Owner,Custodian,Asset Type,Classification,Location,C,I,A,CIA Importance,Criticality (MAX),Criticality Level,Backup Required,Retention Period
+AST-001,Customer Database,PostgreSQL database holding customer and transaction data,CTO,DevOps Lead,Data,Restricted,AWS (RDS PostgreSQL),5,5,5,5-5-5,5,Critical,Yes,As per retention schedule (TBD with legal)
+AST-002,Payment Application,Cloud-based payment management platform,CTO,Engineering Lead,Application,Confidential,AWS,4,5,5,4-5-5,5,Critical,Yes,Per release policy
+AST-003,AWS Production Environment,"Production cloud infrastructure (compute, network, IAM)",DevOps Lead,DevOps Lead,Infrastructure,Restricted,AWS,5,5,5,5-5-5,5,Critical,Yes (config as code),N/A
+AST-004,GitHub Repository,Source control platform hosting application code and pipelines,Engineering Lead,Engineering Lead,Source Code,Confidential,GitHub (SaaS),4,5,4,4-5-4,5,Critical,Yes,Life of product
+AST-005,Microsoft 365,"Email, collaboration and identity services",IT Manager,IT Manager,SaaS,Confidential,Microsoft cloud,4,4,4,4-4-4,4,High,Yes,Per mailbox retention policy
+AST-006,Employee Laptops,Windows/macOS corporate endpoints,IT Manager,IT Manager,Hardware,Internal,Office / remote,3,3,3,3-3-3,3,Medium,No (data on cloud),Device life (3-4 yrs)
+AST-007,VPN,Remote access VPN to corporate and production networks,IT Manager,IT Manager,Network,Confidential,Cloud / office,4,4,4,4-4-4,4,High,Config only,N/A
+AST-008,Firewall,Perimeter and cloud firewall / security groups,IT Manager,IT Manager,Network,Confidential,Office / AWS,3,5,5,3-5-5,5,Critical,Config only,N/A
+AST-009,Company Website,Public marketing website,Marketing,IT Manager,Application,Public,Hosted (cloud),2,4,4,2-4-4,4,High,Yes,Current version + 12 months
+AST-010,CRM System,Customer relationship and sales pipeline,Sales Manager,Sales Manager,SaaS,Confidential,CRM vendor cloud,4,3,3,4-3-3,4,High,Vendor + export,Per customer lifecycle
+AST-011,HR Management System,Employee records and HR workflows,HR Manager,HR Manager,SaaS,Confidential,HR SaaS vendor cloud,4,4,3,4-4-3,4,High,Vendor,Employment + statutory period
+AST-012,Payroll Data,"Salary, bank and tax details of employees",Finance Manager,Finance Manager,Data,Restricted,HR/payroll SaaS,5,5,3,5-5-3,5,Critical,Yes,Statutory period (TBD with legal)
+AST-013,Backup Repository,Cloud backups of production data,DevOps Lead,DevOps Lead,Storage,Restricted,AWS (separate account/bucket),5,5,4,5-5-4,5,Critical,N/A (is the backup),Per Backup Policy
+AST-014,Source Code Repository (data view),Source code as an information asset (see note: overlaps AST-004),Engineering Lead,Engineering Lead,Data,Confidential,GitHub (SaaS),4,5,3,4-5-3,5,Critical,Yes,Life of product
+AST-015,Employee Directory,Employee contact and role information,HR Manager,IT Manager,Data,Internal,Microsoft 365 / HRMS,2,3,2,2-3-2,3,Medium,Yes,Employment duration
+AST-016,Security Logs,"CloudTrail, VPN, endpoint and M365 audit logs",Security Lead,DevOps Lead,Data,Restricted,AWS / SIEM,4,5,3,4-5-3,5,Critical,Yes,12 months (proposed)
+AST-017,API Keys / Secrets,"Credentials, tokens and keys for systems and integrations",DevOps Lead,DevOps Lead,Credential,Restricted,AWS / GitHub,5,5,4,5-5-4,5,Critical,Yes (vault),Until rotated
+AST-018,Customer Support Platform,Ticketing and support communications,Support Lead,Support Lead,SaaS,Confidential,Vendor cloud,4,3,4,4-3-4,4,High,Vendor,Per support policy
+AST-019,Security Documentation,"ISMS policies, procedures and records",Security Lead,Security Lead,Document,Internal,SharePoint / GitHub,2,3,2,2-3-2,3,Medium,Yes,Current + prior versions
+AST-020,Vendor Contracts,Supplier agreements and NDAs,Legal/Finance,Legal/Finance,Document,Confidential,SharePoint / finance system,4,4,2,4-4-2,4,High,Yes,Contract term + 7 years (assumed)

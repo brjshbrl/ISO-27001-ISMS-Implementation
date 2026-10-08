@@ -1,0 +1,9 @@
+Type,Issue,Impact on ISMS
+Internal,Rapid employee growth,Increased access-management risk
+Internal,Cloud-based infrastructure,Misconfiguration risk
+Internal,Limited security personnel,Monitoring and governance gaps
+Internal,Remote work,Endpoint/access risks
+External,Cyberattacks,Confidentiality/integrity risk
+External,Regulatory requirements,Compliance obligations
+External,Customer security requirements,Contractual obligations
+External,Third-party dependency,Supply-chain risk

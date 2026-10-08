@@ -1,0 +1,10 @@
+Control Area,Current State,Target State,Gap,Severity,Recommendation,ISO Reference
+Access review,Ad hoc,Quarterly,Yes,High,Implement quarterly review,A.5.15 / A.5.18
+MFA,82% coverage,100%,Yes,High,Enforce MFA,A.5.17 / A.8.5
+Security awareness,Informal,Annual program,Yes,Medium,Formal training,A.6.3
+Backup testing,No regular test,Quarterly,Yes,High,Conduct restore testing,A.8.13
+Supplier assessment,Partial,Formal process,Yes,Medium,Create vendor questionnaire,A.5.19 / A.5.20
+Incident response,Documented,Tested,Yes,High,Conduct tabletop exercise,A.5.24 / A.5.26
+Log retention (added),Default retention,"12 months, protected",Yes,Medium,Centralise logs and set retention,A.8.15
+Network segmentation (added),Flat network,Segmented prod/corp/dev,Yes,Medium,Segment and review security groups,A.8.22
+Asset inventory,Maintained (20 assets),Maintained and reviewed,No,Low,Annual review,A.5.9

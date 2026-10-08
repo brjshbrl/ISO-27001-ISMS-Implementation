@@ -1,0 +1,94 @@
+Control,Title,Applicable?,Justification,Implementation Status,Evidence
+A.5.1,Policies for information security,Yes,ISMS governance,Implemented,Information-Security-Policy.md
+A.5.2,Information security roles and responsibilities,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.3,Segregation of duties,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.4,Management responsibilities,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.5,Contact with authorities,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.6,Contact with special interest groups,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.7,Threat intelligence,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.8,Information security in project management,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.9,Inventory of information and other associated assets,Yes,Critical assets identified,Implemented,Asset-Inventory.xlsx
+A.5.10,Acceptable use of information and other associated assets,Yes,Rules for use of company assets,Implemented,Acceptable-Use-Policy.md
+A.5.11,Return of assets,Yes,Assets returned on exit,Planned,Asset-Management-Policy.md
+A.5.12,Classification of information,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.13,Labelling of information,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.14,Information transfer,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.15,Access control,Yes,Access to systems must be controlled,Partial,Access review (AF-004)
+A.5.16,Identity management,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.17,Authentication information,Yes,MFA/secret handling for key systems,Partial,MFA coverage 82% (AF-002)
+A.5.18,Access rights,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.19,Information security in supplier relationships,Yes,Suppliers process company/customer data,Partial,Vendor assessment (AF-003)
+A.5.20,Addressing information security within supplier agreements,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.21,Managing information security in the ICT supply chain,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.22,"Monitoring, review and change management of supplier services",Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.23,Information security for use of cloud services,Yes,AWS environment used,Partial,Cloud security review
+A.5.24,Information security incident management planning and preparation,Yes,Incident handling required for a payment platform,Partial,Incident-Response-Policy.md; not yet tested
+A.5.25,Assessment and decision on information security events,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.26,Response to information security incidents,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.27,Learning from information security incidents,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.28,Collection of evidence,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.29,Information security during disruption,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.30,ICT readiness for business continuity,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.31,"Legal, statutory, regulatory and contractual requirements",Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.32,Intellectual property rights,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.33,Protection of records,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.34,Privacy and protection of PII,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.35,Independent review of information security,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.36,"Compliance with policies, rules and standards for information security",Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.5.37,Documented operating procedures,Yes,Organizational control relevant to a 50-person SaaS/FinTech provider,Planned,To be collected
+A.6.1,Screening,Yes,People control - employees and contractors handle customer data,Planned,To be collected
+A.6.2,Terms and conditions of employment,Yes,People control - employees and contractors handle customer data,Planned,To be collected
+A.6.3,"Information security awareness, education and training",Yes,Employees handle sensitive data,Partial,Training records
+A.6.4,Disciplinary process,Yes,People control - employees and contractors handle customer data,Planned,To be collected
+A.6.5,Responsibilities after termination or change of employment,Yes,People control - employees and contractors handle customer data,Planned,To be collected
+A.6.6,Confidentiality or non-disclosure agreements,Yes,People control - employees and contractors handle customer data,Planned,To be collected
+A.6.7,Remote working,Yes,People control - employees and contractors handle customer data,Planned,To be collected
+A.6.8,Information security event reporting,Yes,People control - employees and contractors handle customer data,Planned,To be collected
+A.7.1,Physical security perimeters,Yes,Office premises exist; data centre perimeter is AWS-managed (supplier),Planned,Office security review
+A.7.2,Physical entry,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.3,"Securing offices, rooms and facilities",Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.4,Physical security monitoring,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.5,Protecting against physical and environmental threats,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.6,Working in secure areas,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.7,Clear desk and clear screen,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.8,Equipment siting and protection,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.9,Security of assets off-premises,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.10,Storage media,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.11,Supporting utilities,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.12,Cabling security,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.13,Equipment maintenance,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.7.14,Secure disposal or re-use of equipment,Yes,Physical control for office premises; AWS data centres covered via supplier (A.5.19-5.23),Planned,To be collected
+A.8.1,User endpoint devices,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.2,Privileged access rights,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.3,Information access restriction,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.4,Access to source code,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.5,Secure authentication,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.6,Capacity management,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.7,Protection against malware,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.8,Management of technical vulnerabilities,Yes,Internet-facing assets exist,Partial,Vulnerability report
+A.8.9,Configuration management,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.10,Information deletion,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.11,Data masking,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.12,Data leakage prevention,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.13,Information backup,Yes,Critical business data requires recovery,Partial,Backup logs; restore test missing (AF-001)
+A.8.14,Redundancy of information processing facilities,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.15,Logging,Yes,Security monitoring required,Partial,Log configuration
+A.8.16,Monitoring activities,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.17,Clock synchronization,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.18,Use of privileged utility programs,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.19,Installation of software on operational systems,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.20,Networks security,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.21,Security of network services,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.22,Segregation of networks,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.23,Web filtering,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.24,Use of cryptography,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.25,Secure development life cycle,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.26,Application security requirements,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.27,Secure system architecture and engineering principles,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.28,Secure coding,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.29,Security testing in development and acceptance,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.30,Outsourced development,No,Software development is performed in-house; no outsourced development (revisit if this changes),N/A,-
+A.8.31,"Separation of development, test and production environments",Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.32,Change management,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.33,Test information,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected
+A.8.34,Protection of information systems during audit testing,Yes,"Technological control for AWS, endpoints and applications in scope",Planned,To be collected

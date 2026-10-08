@@ -1,0 +1,19 @@
+Risk ID,Asset,Risk (Threat - Vulnerability),Primary Control (ISO/IEC 27001:2022 Annex A),Secondary Control,Inherent Rating,Treatment Action
+R-001,Customer DB,Data breach - Excessive privileges,A.5.15 Access control,A.5.18 Access rights,Critical,Conduct quarterly database access reviews; remove standing admin access
+R-002,AWS,Cloud compromise - Misconfigured IAM,A.5.23 Information security for use of cloud services,A.8.2 Privileged access rights,High,Review AWS IAM permissions; enable IAM Access Analyzer
+R-003,GitHub,Account takeover - MFA not enforced,A.5.17 Authentication information,A.8.5 Secure authentication,High,Enforce MFA on GitHub org
+R-004,Laptops,Malware - Weak endpoint controls,A.8.7 Protection against malware,A.8.1 User endpoint devices,High,Deploy endpoint protection (EDR) on all laptops
+R-005,M365,Phishing - Limited awareness,"A.6.3 Information security awareness, education and training",A.8.23 Web filtering,High,Conduct phishing simulation and security awareness training
+R-006,VPN,Unauthorized access - Weak authentication,A.5.15 Access control,A.8.5 Secure authentication,High,Enforce MFA on VPN
+R-007,Backup,Data loss - Inadequate backup testing,A.8.13 Information backup,A.5.30 ICT readiness for business continuity,High,Perform quarterly backup restoration test
+R-008,API Keys,Credential exposure - Poor secret management,A.5.17 Authentication information,A.8.24 Use of cryptography,High,Move secrets to AWS Secrets Manager; enable GitHub secret scanning
+R-009,HR System,Data disclosure - Excessive access,A.5.18 Access rights,A.8.3 Information access restriction,High,Review and restrict HRMS roles
+R-010,Customer Support,Data leakage - Improper data handling,A.5.34 Privacy and protection of PII,A.8.11 Data masking,High,Define data-handling procedure; mask customer data in tickets
+R-011,Source Code,Intellectual property theft - Excessive repository access,A.8.4 Access to source code,A.5.18 Access rights,High,Repository access review; branch protection; least privilege
+R-012,AWS,Service outage - Single-region dependency,A.8.14 Redundancy of information processing facilities,A.5.30 ICT readiness for business continuity,High,Design and test multi-region / DR failover
+R-013,Security Logs,Evidence loss - Insufficient retention,A.8.15 Logging,A.8.16 Monitoring activities,High,Define 12-month retention; centralise logs in protected storage
+R-014,Employee Laptop,Data theft - Disk encryption gap,A.8.1 User endpoint devices,A.8.24 Use of cryptography,High,Enforce full-disk encryption through device management
+R-015,Vendor,Supply-chain compromise - Weak vendor assessment,A.5.19 Information security in supplier relationships,A.5.20 Addressing information security within supplier agreements,High,Implement vendor security assessment process
+R-016,Website,Exploitation - Unpatched components,A.8.8 Management of technical vulnerabilities,A.8.9 Configuration management,High,Monthly patching and vulnerability scanning for website
+R-017,Payroll Data,Unauthorized disclosure - Weak access segregation,A.8.3 Information access restriction,A.5.3 Segregation of duties,High,Restrict payroll access to named roles; log access
+R-018,Network,Lateral movement - Poor segmentation,A.8.22 Segregation of networks,A.8.20 Networks security,High,Segment prod/corporate/dev; review security groups

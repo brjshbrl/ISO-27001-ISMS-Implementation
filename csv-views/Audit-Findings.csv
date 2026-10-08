@@ -1,0 +1,5 @@
+Finding ID,Control,Finding,Severity,Risk,Corrective Action,Owner,Due (days),Due Date,Status
+AF-001,A.8.13,Backup restoration tests have not been performed within the defined review period.,Major,Recovery failure during a critical incident.,Conduct quarterly restoration testing and retain evidence.,DevOps Lead,30,07-Nov-2026,Open
+AF-002,A.5.17,MFA is not enforced for all users (82% coverage).,Major,"Account takeover of email, GitHub or VPN.",Enforce MFA for all users.,IT Manager,15,23-Oct-2026,Open
+AF-003,A.5.19,No formal vendor security assessment process; assessments are partial.,Minor,Supply-chain compromise.,Create and apply a vendor assessment questionnaire.,Procurement,60,07-Dec-2026,Open
+AF-004,A.5.15,Access reviews are ad hoc; only partly evidenced.,Minor,Excessive privileges persist undetected.,Run quarterly privileged-access reviews and retain reports.,CTO,30,07-Nov-2026,Open
