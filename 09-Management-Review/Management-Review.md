@@ -1,10 +1,10 @@
 # Management Review
 
-> **Simulated portfolio project.** SecurePay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
+> **Simulated portfolio project.** HawkPay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
 
 | | |
 |---|---|
-| **Document ID** | SP-ISMS-MRV-001 |
+| **Document ID** | HP-ISMS-MRV-001 |
 | **Meeting date** | October 2026 (simulated) |
 | **Chair** | CEO |
 | **Attendees** | CTO, Security Lead, IT Manager, DevOps Lead, HR Manager, Finance Manager |

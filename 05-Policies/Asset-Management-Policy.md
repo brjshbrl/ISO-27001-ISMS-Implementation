@@ -1,10 +1,10 @@
 # Asset Management Policy
 
-> **Simulated portfolio project.** SecurePay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
+> **Simulated portfolio project.** HawkPay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
 
 | Document control | |
 |---|---|
-| **Document ID** | SP-ISMS-POL-003 |
+| **Document ID** | HP-ISMS-POL-003 |
 | **Version** | 1.0 |
 | **Owner** | IT Manager |
 | **Approved By** | CEO (simulated) |
@@ -17,7 +17,7 @@
 To identify, own, classify and protect information assets throughout their lifecycle.
 
 ## 2. Scope
-All employees, contractors and third parties accessing SecurePay information or systems within the ISMS scope (see `01-ISMS-Scope/ISMS-Scope.md`). Applies to information, software, hardware, cloud and SaaS assets.
+All employees, contractors and third parties accessing HawkPay information or systems within the ISMS scope (see `01-ISMS-Scope/ISMS-Scope.md`). Applies to information, software, hardware, cloud and SaaS assets.
 
 ## 3. Responsibilities
 | Role | Responsibility |

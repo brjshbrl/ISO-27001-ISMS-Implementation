@@ -1,10 +1,10 @@
 # Supplier Security Policy
 
-> **Simulated portfolio project.** SecurePay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
+> **Simulated portfolio project.** HawkPay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
 
 | Document control | |
 |---|---|
-| **Document ID** | SP-ISMS-POL-007 |
+| **Document ID** | HP-ISMS-POL-007 |
 | **Version** | 1.0 |
 | **Owner** | Procurement / Security Lead |
 | **Approved By** | CEO (simulated) |
@@ -17,7 +17,7 @@
 To manage information security risks arising from suppliers and cloud services.
 
 ## 2. Scope
-All suppliers with access to SecurePay information or systems, including AWS, Microsoft, GitHub, CRM, HR/payroll and support SaaS vendors.
+All suppliers with access to HawkPay information or systems, including AWS, Microsoft, GitHub, CRM, HR/payroll and support SaaS vendors.
 
 ## 3. Responsibilities
 | Role | Responsibility |

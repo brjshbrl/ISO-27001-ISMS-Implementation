@@ -1,10 +1,10 @@
 # Backup & Recovery Policy
 
-> **Simulated portfolio project.** SecurePay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
+> **Simulated portfolio project.** HawkPay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
 
 | Document control | |
 |---|---|
-| **Document ID** | SP-ISMS-POL-006 |
+| **Document ID** | HP-ISMS-POL-006 |
 | **Version** | 1.0 |
 | **Owner** | DevOps Lead |
 | **Approved By** | CEO (simulated) |

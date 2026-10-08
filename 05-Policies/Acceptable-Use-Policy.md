@@ -1,10 +1,10 @@
 # Acceptable Use Policy
 
-> **Simulated portfolio project.** SecurePay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
+> **Simulated portfolio project.** HawkPay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
 
 | Document control | |
 |---|---|
-| **Document ID** | SP-ISMS-POL-005 |
+| **Document ID** | HP-ISMS-POL-005 |
 | **Version** | 1.0 |
 | **Owner** | IT Manager |
 | **Approved By** | CEO (simulated) |
@@ -17,7 +17,7 @@
 To define acceptable use of company systems, devices, internet, email and data.
 
 ## 2. Scope
-All employees, contractors and third parties accessing SecurePay information or systems within the ISMS scope (see `01-ISMS-Scope/ISMS-Scope.md`).
+All employees, contractors and third parties accessing HawkPay information or systems within the ISMS scope (see `01-ISMS-Scope/ISMS-Scope.md`).
 
 ## 3. Responsibilities
 | Role | Responsibility |

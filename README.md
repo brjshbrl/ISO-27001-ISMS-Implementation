@@ -1,6 +1,6 @@
-# ISO/IEC 27001:2022 ISMS Implementation – SecurePay Technologies (Simulated)
+# ISO/IEC 27001:2022 ISMS Implementation – HawkPay Technologies (Simulated)
 
-> **Simulated portfolio project.** SecurePay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
+> **Simulated portfolio project.** HawkPay Technologies Pvt. Ltd. is a fictional organisation. Nothing here claims real certification or legal compliance.
 
 A GRC portfolio project that builds an ISO/IEC 27001:2022-aligned ISMS for a fictional 50-person FinTech/SaaS company (AWS, Microsoft 365, GitHub, PostgreSQL, CRM, HR/payroll SaaS).
 
